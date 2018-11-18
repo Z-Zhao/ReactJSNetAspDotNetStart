@@ -5,7 +5,7 @@ This is an example of how to set up ReactJS.NET at ASP.NET MVC5 + VS2017. This e
 
 Please read this official tutorial before you initialize this project.
 
-Although the official tutorial is very useful, it is for VS2013 + ASP.NET MVC4 which are outdated. This example (ASP.NET MVC5.X.X + VS2017) shows extra configurations and Nuget packages. Otherwise error will occour bacause of no JS Engine.
+Although the official tutorial is very useful, it is for VS2013 + ASP.NET MVC4 which are outdated. This example (ASP.NET MVC5.X.X + VS2017) shows extra configurations and Nuget packages. Otherwise, an error will occur because of no JS Engine.
 
 Initialize project difference:
 ASP.NET Web Application (.NET Framework)
@@ -16,4 +16,4 @@ Extra works:
 1. Install nugget packages: JsEngineSwitcher.V8, x86, x64
 2. Editing ReactConfig.cs according to the project file.
 
-Otherwise (if only follow above tutorial), Http 500 error happens when access .jsx files because there is no JS engine.
+Otherwise (if you only follow official tutorial), Http 500 error happens when access .jsx files because there is no JS engine.
